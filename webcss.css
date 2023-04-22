@@ -167,7 +167,20 @@ body {
     color: white;
   }
 
-  iframe{
-    width: 100%;
-    height: auto;
+.ytb
+{
+  position: relative;
+  width: 100%;
+  padding-bottom: 75%; /* 0.75 fois la largeur */
+  height: 0;
+}
+
+  .ytb iframe
+  {
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   }
+
