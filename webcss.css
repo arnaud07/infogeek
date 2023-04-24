@@ -4,11 +4,10 @@ body {
     background-color: #000000;
     margin: 0;
     padding: 0;
-    background-image: url("test.png");
+    background-image: url("a.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachement: fixed;
     color: #ffffff;
     padding: 20px;
   }
